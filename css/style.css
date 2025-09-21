@@ -1,4 +1,4 @@
-h1 {
+#main-page-header {
     background-color: mistyrose;
     text-align: center;
 }
@@ -17,4 +17,31 @@ img {
     border-radius: 8px;
     display: block;
     margin: auto;
+}
+.subheader {
+    font-weight: bold;
+    font-size: 20px;
+}
+.button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
+}
+#songs { 
+  width: 50%;
+  background-color: lightblue;
+  border: 1px solid black; 
+  padding: 10px; 
+}
+
+#albums { 
+  width: 50%; 
+  background-color: lightyellow; 
+  border: 1px solid black; 
+  padding: 10px;
 }
